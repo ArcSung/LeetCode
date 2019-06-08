@@ -63,7 +63,7 @@ int main(void){
 	ListNode *head = &a;
 	a.next = &b;
 	b.next = &c;
-	c.next = NULL;
+	c.next = &d;
 	d.next = &e;
 	e.next = NULL;
 
